@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomy xml:id="enties" xmlns="http://www.tei-c.org/ns/1.0">
+
+    <category xml:id="stage.work">
+        <catDesc>
+            <name>Bühnenwerk</name>
+            <ref type="GND" target="https://d-nb.info/gnd/4461958-3"/>
+        </catDesc>
+        <category xml:id="stage.work.cabaret">
+            <catDesc>
+                <name>Kabarettprogramm</name>
+                <ref type="GND" target="http://d-nb.info/gnd/4367568-2"/>
+            </catDesc>
+        </category>
+        <category xml:id="stage.work.play">
+            <catDesc>
+                <name>Theaterstück</name>
+                <ref type="GND" target="http://d-nb.info/gnd/4304080-9"/>
+            </catDesc>
+        </category>
+    </category>
+    
+    <category xml:id="musical.form">
+        <catDesc>
+            <name>Musikalische Form</name>
+            <ref type="GND" target="https://d-nb.info/gnd/4040821-8"/>
+        </catDesc>
+        <category xml:id="musical.form.chanson">
+            <catDesc>
+                <name>Chanson</name>
+                <ref type="GND" target="http://d-nb.info/gnd/4009744-4"/>
+            </catDesc>
+        </category>
+    </category>
+
+    <category xml:id="gnd"/>
+    
+    <category xml:id="status">    
+        <category xml:id="status.in_progress"/>
+        <category xml:id="status.archived"/>
+        <category xml:id="status.hidden"/>
+    </category>
+    
+</taxonomy>

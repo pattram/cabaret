@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listPerson xml:id="persons" xmlns="http://www.tei-c.org/ns/1.0">
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="roles.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gender.xml"/>
+    
+    <person xml:id="gerhard.bronner" ana="#role.cabaretist">
+        <interpGrp type="status">
+            <interp ana="#status.archived"/>
+        </interpGrp>
+        <persName ana="#gender.male" ref="https://www.kabarettarchiv.at/Biografie-Gerhard-Bronner">
+            <forename>Gerhard</forename>
+            <surname>Bronner</surname>
+            <ref type="GND" target="https://d-nb.info/gnd/119271524"/>       
+        </persName>
+    </person>
+
+    <person xml:id="kurt.jaggberg" ana="#role.cabaretist">
+        <interpGrp type="status">
+            <interp ana="#status.archived"/>
+        </interpGrp>
+        <persName ana="#gender.male" ref="https://www.kabarettarchiv.at/Biografie-Kurt-Jaggberg">
+            <forename>Kurt</forename>
+            <surname>Jaggberg</surname>
+            <ref type="GND" target="https://d-nb.info/gnd/143074962"/>       
+        </persName>
+    </person>
+ 
+    <person xml:id="jaroslav.hasek">
+        <persName ana="#gender.male">
+            <forename>Jaroslav</forename>
+            <surname>Hašek</surname>
+            <ref type="GND" target="https://d-nb.info/gnd/118546554"/>       
+        </persName>
+    </person>
+    
+    <person xml:id="michael.kehlmann">
+        <interpGrp type="status">
+            <interp ana="#status.archived"/>
+        </interpGrp>
+        <persName ana="#gender.male" ref="https://www.kabarettarchiv.at/Biografie-Michael-Kehlmann">
+            <forename>Michael</forename>
+            <surname>Kehlmann</surname>
+            <ref type="GND" target="http://d-nb.info/gnd/116092580"/>       
+        </persName>
+    </person>
+    
+    <person xml:id="karl.kraus">
+        <persName ana="#gender.male">
+            <forename>Karl</forename>
+            <surname>Kraus</surname>
+            <ref type="GND" target="https://d-nb.info/gnd/118566288"/>       
+        </persName>
+    </person>
+    
+    <person xml:id="georg.kreisler" ana="#role.cabaretist">
+        <interpGrp type="status">
+            <interp ana="#status.archived"/>
+        </interpGrp>
+        <persName ana="#gender.male" ref="https://www.kabarettarchiv.at/Biografie-Georg-Kreisler">
+            <forename>Georg</forename>
+            <surname>Kreisler</surname>
+            <ref type="GND" target="https://d-nb.info/gnd/118715895"/>               
+        </persName>
+    </person>
+
+    <person xml:id="anton.kuh">
+        <persName ana="#gender.male">
+            <forename>Anton</forename>
+            <surname>Kuh</surname>
+            <ref type="GND" target="https://d-nb.info/gnd/119302616"/>               
+        </persName>
+    </person>
+
+    <person xml:id="louise.martini" ana="#role.cabaretist">
+        <interpGrp type="status">
+            <interp ana="#status.archived"/>
+        </interpGrp>
+        <persName ana="#gender.female" ref="https://www.kabarettarchiv.at/Biografie-Louise-Martina">
+            <forename>Louise</forename>
+            <surname>Martini</surname>
+            <ref type="GND" target="http://d-nb.info/gnd/120543109"/>          
+        </persName>
+    </person>
+    
+    <person xml:id="carl.merz" ana="#role.cabaretist">
+        <interpGrp type="status">
+            <interp ana="#status.archived"/>
+        </interpGrp>
+        <persName ana="#gender.male" ref="https://www.kabarettarchiv.at/Biografie-Carl-Merz">
+            <forename>Carl</forename>
+            <surname>Merz</surname>
+            <ref type="GND" target="http://d-nb.info/gnd/115661018"/>       
+        </persName>
+    </person>
+
+    <person xml:id="eva.pilz" ana="#role.cabaretist">
+        <persName ana="#gender.female">
+            <forename>Eva</forename>
+            <surname>Pilz</surname>
+            <ref type="GND" target="https://d-nb.info/gnd/1269117068"/>       
+        </persName>
+    </person>
+        
+    <person xml:id="helmut.qualtinger" ana="#role.cabaretist">
+        <interpGrp type="roles">
+            <interp ana="#role.actor"/>
+            <interp ana="#role.cabaretist"/>
+            <interp ana="#role.author"/>
+            <interp ana="#role.reciter"/>
+        </interpGrp>
+        <interpGrp type="status">
+            <interp ana="#status.archived"/>
+        </interpGrp>
+        <persName ana="#gender.male" ref="https://www.kabarettarchiv.at/Biografie-Helmut-Qualtinger">
+            <forename>Helmut</forename>
+            <surname>Qualtinger</surname>
+            <ref type="GND" target="http://d-nb.info/gnd/118828983"/>
+            <ref type="ABOUT" target="https://www.youtube.com/watch?v=9ehvyqxZeJ8amp;&amp;t=0s"/>
+        </persName>
+        <birth>x^
+            <date when="1928-10-08">8. Oktober 1928</date>
+            <name type="place">Wien</name>
+        </birth>
+        <death>
+            <date when="1986-09-29">29. September 1986</date>
+            <name type="place">Wien</name>
+        </death>
+    </person>
+
+    <person xml:id="arthur.schnitzler">
+        <persName ana="#gender.male">
+            <forename>Arthur</forename>
+            <surname>Schnitzler</surname>
+            <ref type="GND" target="https://d-nb.info/gnd/118609807"/>
+        </persName>
+    </person>
+    
+    <person xml:id="johann.sklenka" ana="#role.cabaretist">
+        <interpGrp type="status">
+            <interp ana="#status.archived"/>
+        </interpGrp>
+        <persName ana="#gender.male" ref="https://www.kabarettarchiv.at/Biografie-Johann-Sklenka">
+            <forename>Johann</forename>
+            <surname>Sklenka</surname>
+            <ref type="GND" target="http://d-nb.info/gnd/135094100"/>
+        </persName>
+    </person>
+      
+    <person xml:id="kurt.sobotka" ana="#role.cabaretist">
+        <persName ana="#gender.male">
+            <forename>Kurt</forename>
+            <surname>Sobotka</surname>
+            <ref type="GND" target="https://d-nb.info/gnd/124657613"/>
+        </persName>
+    </person>
+   
+    <person xml:id="peter.wehle" ana="#role.cabaretist">
+        <interpGrp type="status">
+            <interp ana="#status.archived"/>
+        </interpGrp>
+        <persName ana="#gender.male" ref="https://www.kabarettarchiv.at/Biografie-Peter-Wehle">
+            <forename>Peter</forename>
+            <surname>Wehle</surname>
+            <ref type="GND" target="https://d-nb.info/gnd/11876604X"/>
+        </persName>
+    </person>
+
+ </listPerson>

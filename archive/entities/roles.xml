@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomy xml:id="roles" xmlns="http://www.tei-c.org/ns/1.0">
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="gender.xml"/>
+
+    <category xml:id="role.actor">
+        <catDesc>
+            <name type="#gender.male">Schauspieler</name>
+            <ref type="GND" target="http://d-nb.info/gnd/4052154-0"/>
+        </catDesc>
+        <catDesc>
+            <name type="#gender.female">Schauspielerin</name>
+            <ref type="GND" target="https://d-nb.info/gnd/4153179-6"/>
+        </catDesc>
+    </category>
+    <category xml:id="role.cabaretist">
+        <catDesc>
+            <name type="#gender.male">Kabarettist</name>
+            <ref type="GND" target="http://d-nb.info/gnd/4123477-7"/>
+        </catDesc>
+        <catDesc>
+            <name type="#gender.female">Kabarettistin</name>
+            <ref type="GND" target="https://d-nb.info/gnd/4707009-2"/>
+        </catDesc>
+    </category>
+    <category xml:id="role.author">
+        <catDesc>
+            <name type="#gender.male">Schriftsteller</name>
+            <ref type="GND" target="https://d-nb.info/gnd/4003982-1"/>
+        </catDesc>
+        <catDesc>
+            <name type="#gender.female">Schriftstellerin</name>
+            <ref type="GND" target="https://d-nb.info/gnd/4258697-5"/>
+        </catDesc>
+    </category>
+    <category xml:id="role.reciter">
+        <catDesc>
+            <name type="#gender.male">Rezitator</name>
+        </catDesc>
+        <catDesc>
+            <name type="#gender.female">Rezitatorin</name>
+        </catDesc>
+    </category>
+</taxonomy>

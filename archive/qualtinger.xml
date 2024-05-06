@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Künstlerische Kurzbiographie von Helmut Qualtinger</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName ref="https://www.kabarettarchiv.at">Österreichisches Kabarettarchiv</orgName>
+            </publisher>
+            <distributor>
+               <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+            </distributor>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons BY-NC 4.0</licence>
+            </availability>
+            <date when="2024"/>
+            <pubPlace>Graz</pubPlace>
+            <idno type="PID">o:oeka.helmut.qualtinger</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://gams.uni-graz.at/kabarettarchiv">Digitale Edition der künstlerischen
+               Kurzbiographien österreichischer Kabarettist:innen</title>
+            <respStmt>
+               <resp>Projektleitung</resp>
+               <persName>
+                  <forename>Iris</forename>
+                  <surname>Fink</surname>
+               </persName>
+            </respStmt>
+            <respStmt xml:id="editor">
+               <resp>Editor</resp>
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Stoppacher</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="#status.hidden">
+               <resp>Datenmodellierung</resp>
+               <persName>
+                  <forename>Johannes</forename>
+                  <surname>Stigler</surname>
+               </persName>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <institution>Kabarettarchiv Graz</institution>
+               </msIdentifier>
+               <msContents ana="#helmut.qualtinger">
+                  <textLang mainLang="de"/>
+               </msContents>
+               <history>
+                  <provenance>Optional: Allgemeine Beschreibung der Provinience bzw. Produktion des Biographien</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="entities/general.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="entities/stages.xml"/>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <include xmlns="http://www.w3.org/2001/XInclude" href="entities/persons.xml"/>
+
+         <div xml:id="biography">
+
+            <figure>
+               <graphic url="qualtinger.jpg"/>
+               <head>Foto: © Erich Reismann</head>
+            </figure>
+            
+            <ab xml:id="general">Helmut Qualtinger war u.a. Statist an der Staatsoper, Gasthörer am
+               Reinhardt-Seminar, Journalist. Er begann zu schreiben und schloss sich einer
+               Studentenbühne an. 
+            </ab>
+            <ab>
+               <date when="1946"/>1946 trat er im <rs type="#stage.studio_der_hochschulen">Studio
+                  der Hochschulen</rs> auf, spielte danach im <rs type="#stage.lieber_augustin"
+                  >Lieben Augustin</rs> unter der Direktion von <persName ana="#gnd"
+                  type="#carl.merz">Carl Merz</persName> (1946/47). 1947 spielte Qualtinger
+               in der literarischen Kabarett-Revue <rs type="#stage.work.cabaret">Die Grimasse</rs>
+               wiederum im <rs type="#stage.studio_der_hochschulen">Studio der Hochschulen</rs>
+               (Regie: <persName ana="#gnd" type="#michael.kehlmann">Michael
+                  Kehlmann</persName> ), an der er auch mitschrieb. Er trat aber nicht nur im <rs
+                  type="#stage.studio_der_hochschulen">Studio der Hochschulen</rs> in der Kolingasse
+               auf, sondern in vielen Kellertheatern oder Kleinbühnen. 
+            </ab>
+            <ab>
+               <date when="1949"/>Sein erstes Theaterstück <rs type="#stage.work.play">Jugend vor
+                  den Schranken</rs> hatte im März 1949 in Graz Premiere und endete mit einem
+               Tumult, was Qualtinger Graz derart vermieste, dass er die Stadt fortan mied. 
+            </ab>
+            <ab>
+               <date when="1950"/>Die nächste Kabarett-Revue war <rs type="#stage.work.cabaret"
+                  >Blitzlichter</rs>, eine Zusammenarbeit von <persName
+                  type="#michael.kehlmann">Kehlmann</persName>, <persName
+                  type="#carl.merz">Merz</persName> und Qualtinger, die im Dezember 1950 im
+                  <rs type="#stage.theater_im_konzerthaus">Kleinen Theater im Konzerthaus</rs>
+               Premiere hatte. Dieselbe Formation verstärkt um <persName ana="#gnd"
+                  type="#gerhard.bronner">Gerhard Bronner</persName>, der Musik und
+               Conférencen beisteuerte, brachte ebendort <rs type="#stage.work.cabaret">Reigen
+                  51</rs> – Variationen über ein Thema von <persName ana="#gnd"
+                  type="#arthur.schnitzler">Arthur Schnitzler</persName> – heraus. 
+            </ab>
+            <ab>
+               <date when="1952"/>1952 folgte <rs type="#stage.work.cabaret">Brettl vor’m Kopf</rs>,
+               das erste der legendären Kabarett-Programme der neuen Kabarettära. <persName
+                  type="#gerhard.bronner">Bronner</persName> schrieb u.a. <rs
+                  type="#musical.form.chanson">Der g’schupfte Ferdl</rs>, Qualtinger interpretierte
+               ihn unvergessen. Das nächste Programm des Ensembles um <persName
+                  type="#gerhard.bronner">Bronner</persName>, <persName
+                  type="#carl.merz">Merz</persName> und Qualtinger, verstärkt um <persName
+                  ana="#gnd" type="#georg.kreisler">Georg Kreisler</persName> und <persName
+                  ana="#gnd" type="#peter.wehle">Peter Wehle</persName>, das sich nie einen
+               Ensemble-Namen gab, war 1956 <rs type="#stage.work.cabaret">Blattl vor’m Mund</rs>.
+               Dieses und das nächste Programm, <rs type="#stage.work.cabaret">Glasl vor’m Aug</rs>,
+               wurde im <rs type="#stage.intimes_theater">Intimen Theater</rs> in der Liliengasse
+               gespielt, dessen Direktoren <persName type="#gerhard.bronner"
+                  >Bronner</persName> und <persName type="#georg.kreisler"
+                  >Kreisler</persName> waren. Als Darsteller wirkten u. a. <persName ana="#gnd"
+                  type="#louise.martini">Louise Martini</persName>, <persName ana="#gnd"
+                  type="#kurt.jaggberg">Kurt Jaggberg</persName> und <persName ana="#gnd"
+                  type="#johann.sklenka"> Johann Skelnka</persName>. Für diese Programme
+               schrieb <persName type="#gerhard.bronner">Bronner</persName> und kreierte
+               Qualtinger <rs type="#musical.form.chanson">Der Halbwilde</rs> und <rs
+                  type="#musical.form.chanson">Bundesbahnblues</rs>. Zusammen mit Merz verfasste
+               Qualtinger die Prosatexte der Programme, Merz übernahm die Conférencen. 
+            </ab>
+            <ab>
+               <date when="1958"/>Die nächsten Programme <rs type="#stage.work.cabaret">Spiegel
+                  vor’m Gsicht</rs> wurden zwischen Oktober 1958 und Juni 1959 ausschließlich im
+               Fernsehen gespielt. Daraus ist sicher das Chanson <rs type="#musical.form.chanson"
+                  >Der Papa wird’s scho richten</rs> (Text und Musik: <persName
+                  type="#gerhard.bronner">Gerhard Bronner</persName>) am populärsten. 
+            </ab>
+            <ab>
+               <date when="1959"/>Im Herbst 1959 übersiedelte die Truppe ins <rs
+                  type="#stage.theater_am_kärntnertor">Neue Theater am Kärntnertor</rs>, dessen
+               Direktion <persName type="#gerhard.bronner">Bronner</persName> übernommen
+               hatte, und spielte dort <rs type="#stage.work.cabaret">Dachl über’m Kopf</rs> und <rs
+                  type="#stage.work.cabaret">Hackl vor’m Kreuz</rs>. <persName ana="#gnd"
+                  type="#eva.pilz">Eva Pilz</persName> und <persName ana="#gnd"
+                  type="#kurt.sobotka">Kurt Sobotka</persName> verstärkten u. a. das
+               Ensemble. 
+            </ab>
+            <ab>
+               <date when="1961"/>1961 löste sich die Gruppe auf, <persName type="#carl.merz"
+                  >Merz</persName> und Qualtinger schufen <rs type="#stage.work.cabaret">Der Herr
+                  Karl</rs>. Weitere literarische Zusammenarbeiten waren <rs
+                  type="#stage.work.cabaret">Alles gerettet</rs> (1963) und <rs
+                  type="#stage.work.cabaret">Die Hinrichtung</rs> (1965).
+            </ab>
+            <ab>
+               <date when="1970"/>Neben und vor allem nach seiner kabarettistischen Tätigkeit
+               spielte Qualtinger unzählige Bühnenrollen an Wiener und deutschen Theatern. Daneben
+               wirkte er auch in Film- und Fernsehproduktionen mit. Für seine schauspielerischen
+               Leistungen wurde Qualtinger mehrfach ausgezeichnet. In den 1970er Jahren begann
+               Qualtinger auch seine Lesetourneen und versuchte sich stärker als Schriftsteller.
+            </ab>
+         </div>
+
+         <div xml:id="video">
+            <listBibl>
+               <bibl>
+                  <title>Hackl vorm Kreuz / Dachl überm Kopf. Höhepunkte aus den TV-Aufzeichnung der
+                     Kabarettprogramme 1960/1961. Kurier Edition. Best of Kabarett 1, 2008. Vertrieb
+                     Hoanzl.</title>
+                  <date when="2008"/>
+                  <ref target="https://www.youtube.com/watch?v=db_vn3gpCbs"/>
+               </bibl>
+            </listBibl>
+         </div>
+
+         <div xml:id="audio">
+            <listBibl>
+               <bibl>
+                  <title><persName ana="#gnd" type="#carl.merz">Carl Merz</persName> und
+                     Helmut Qualtinger, Travniceks gesammelte Werke. Mit Gerhard Bronner &amp;
+                     Helmut Qualtinger. Preiser, 1988. </title>
+                  <date when="1988"/>
+               </bibl>
+               <bibl>
+                  <title>Die Qualtinger-Songs. Preiser, 1990. </title>
+                  <date when="1990"/>
+               </bibl>
+               <bibl>
+                  <title>Qualtinger liest Qualtinger. 4 CDs. Preiser, 1995. </title>
+                  <date when="1995"/>
+               </bibl>
+               <bibl>
+                  <title>Die rotweissrote Rasse. Preiser, Wien 1999 (aufgenommen im Juli 1979). </title>
+                  <date when="1999"/>
+               </bibl>
+               <bibl>
+                  <title>ka stadt zum Leben – ka stadt zum sterben. Helmut Qualtinger liest aus
+                     seinem Buch <q>Das letzte Lokal</q>. Preiser, 2000. (aufgenommen: Juli 1978) </title>
+                  <date when="1978"/>
+               </bibl>
+               <bibl>
+                  <title>Helmut Qualtinger liest <persName ana="#gnd" type="#jaroslav.hasek"
+                        >Jaroslav Hasek</persName>, <q>Die Abenteuer des braven Soldaten
+                     Schwejk</q>. 3 CDs. Preiser, 1998 (aufgenommen: Mai 1986). </title>
+                  <date when="1986"/>
+               </bibl>
+               <bibl>
+                  <title>Adolf Hitler, Mein Kampf. Eine Lesung von Helmut Qualtinger. 2 CDs.
+                     Preiser, 1989. (aufgenommen: 1973) </title>
+                  <date when="1973"/>
+               </bibl>
+               <bibl>
+                  <title>Helmut Qualtinger liest <persName ana="#gnd" type="#anton.kuh">Anton
+                        Kuh</persName>, Österreichisches Lesebuch. Preiser, 1988. </title>
+                  <date when="1988"/>
+               </bibl>
+               <bibl>
+                  <title>Helmut Qualtinger liest <persName ana="#gnd" type="#anton.kuh">Anton
+                        Kuh</persName>, Österreichisches Lesebuch. Preiser, 1988. </title>
+                  <date when="1988"/>
+               </bibl>
+               <bibl>
+                  <title>Helmut Qualtinger liest aus dem Roman <q>Der ewige Spießer</q> v. Ödön von
+                     Horvàth. Preiser, 1994 (aufgenommen: Juli 1967). </title>
+                  <date when="1967"/>
+               </bibl>
+               <bibl>
+                  <title> Helmut Qualtinger liest Schüttelreime v. Franz Mittler, Hans Grümm u.a.
+                     Preiser, 1993 (aufgenommen: Herbst 1973). </title>
+                  <date when="1973"/>
+               </bibl>
+               <bibl>
+                  <title ref="https://www.youtube.com/watch?v=db_vn3gpCbs"><persName ana="#gnd"
+                        type="#karl.kraus">Karl Kraus</persName>, Die letzten Tage der Menschheit.
+                     Tragödie in fünf Akten mit Vorspiel und Epilog. Eine Auswahl, 5 Folgen.
+                     Sprecher: Helmut Qualtinger. Preiser, 1987 – 1992 (aufgenommen: 1962 –
+                     1975).</title>
+                  <author>Kraus, Karl</author>
+                  <date when="1962"/>
+               </bibl>
+               <bibl>
+                  <title>Qualtinger, Helmut – Wolfgang Bertrand, Fifi Mutzenbacher. Eine
+                     Porno-Parodie v. Wolfgang Bertrand. Sprecher: Helmut Qualtinger. Off limits.
+                     Ausgabe für Wissenschaftler und Sammler. Preiser, 1993. </title>
+                  <date when="1993"/>
+               </bibl>
+               <bibl>
+                  <title>Das Helmut Qualtinger Hörbuch.Von Kaiser Franz Joseph zu Herrn Karl.
+                     Gelesen von Helmut Qualtinger. 2008, Diogenes.</title>
+                  <date when="2008"/>
+               </bibl>
+            </listBibl>
+         </div>
+
+      </body>
+   </text>
+</TEI>

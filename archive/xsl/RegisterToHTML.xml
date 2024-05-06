@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" version="2.0">
+    
+    <xsl:template match="tei:listPerson">
+              
+        <html>
+            <head>
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+                <title>Kabarettarchiv</title>
+            </head>
+            <body>                          
+                <ol>
+                    <xsl:for-each select="tei:person[@ana='#role.cabaretist']">
+                        <li>
+                            <xsl:apply-templates select="tei:persName"/> 
+                        </li>
+                    </xsl:for-each>
+                </ol>
+                
+            </body>
+        </html> 
+    </xsl:template>
+    
+    <xsl:template match="tei:persName">  
+        <xsl:if test="tei:ref[@type='GND']/@target">
+            <a href="{tei:ref[@type='GND']/@target}"><img src="./icons/gnd.png" alt="GND" height="16"/></a> 
+            <xsl:text> </xsl:text>
+        </xsl:if>
+        <xsl:choose>
+            <xsl:when test="@ref">
+                <a href="{@ref}"><xsl:value-of select="concat(tei:forename,  ' ', tei:surname)"/></a>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="concat(tei:forename,  ' ', tei:surname)"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+        
+</xsl:stylesheet>

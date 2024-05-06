@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<taxonomy xml:id="stages" xmlns="http://www.tei-c.org/ns/1.0">
+    <category xml:id="stage.studio_der_hochschulen">
+        <catDesc ref="https://www.geschichtewiki.wien.gv.at/Studio_der_Hochschulen">
+            <name>Studio der Hochschulen</name>
+            <placeName>Wien</placeName>
+        </catDesc>
+    </category>
+    <category xml:id="stage.lieber_augustin">
+        <catDesc ref="https://de.wikipedia.org/wiki/Der_liebe_Augustin">
+            <name>Der liebe Augustin</name>
+            <placeName>Wien</placeName>
+        </catDesc>
+    </category>
+    <category xml:id="stage.theater_im_konzerthaus">
+        <catDesc ref="https://www.geschichtewiki.wien.gv.at/Theater_im_Konzerthauskeller">
+            <name>Kleines Theater im Konzerthaus</name>
+            <placeName>Wien</placeName>
+            <ref type="GND" target="https://d-nb.info/gnd/4540228-0"/>      
+        </catDesc>
+    </category>
+    <category xml:id="stage.intimes_theater">
+        <catDesc ref="https://www.geschichtewiki.wien.gv.at/Intimes_Theater_(Liliengasse_3)">
+            <name>Initimes Theater</name> 
+            <placeName>Wien</placeName>
+            <ref type="GND" target="https://d-nb.info/gnd/16005587-8"/>
+        </catDesc>
+    </category>
+    <category xml:id="stage.theater_am_kärntnertor">
+        <catDesc ref="https://de.wikipedia.org/wiki/Theater_am_Kärntnertor">
+            <name>Theater am Kärntnertor</name>        
+            <placeName>Wien</placeName>
+            <ref type="GND" target="https://d-nb.info/gnd/1132096561"/>
+        </catDesc>            
+    </category>
+</taxonomy>
